@@ -1,0 +1,41 @@
+
+a,span,link,p,h5{
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+
+}
+
+.sfq{
+  display: flex;
+  justify-content: end;
+}
+
+@media (max-width: 992px){
+  .sfq{
+    justify-content: start ;
+  }
+}
+@media (max-width: 575px){
+  .card-2edit{
+    display: flex;
+    flex-direction: column;
+  }
+  .card-coulmn-edited{
+    order: 1;
+  }
+}
+.card-text-own {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d4e9e2;
+}
+.card-text-own1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #006241;
+}
+a{
+  text-decoration: none;
+}
